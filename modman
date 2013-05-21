@@ -1,0 +1,3 @@
+app/code/local/Mage/Adminhtml/Block/Newsletter/Subscriber/Grid.php app/code/local/Mage/Adminhtml/Block/Newsletter/Subscriber/Grid.php
+app/code/local/Mage/Adminhtml/Block/Newsletter/Subscriber/Grid/Render/Lastname.php app/code/local/Mage/Adminhtml/Block/Newsletter/Subscriber/Grid/Render/Lastname.php
+app/code/local/Mage/Adminhtml/Block/Newsletter/Subscriber/Grid/Render/Name.php app/code/local/Mage/Adminhtml/Block/Newsletter/Subscriber/Grid/Render/Name.php
