@@ -23,6 +23,13 @@ class Mage_Adminhtml_Block_Newsletter_Subscriber_Grid_Render_Lastname extends Ma
                     break;
                 }
             }
+        } else {
+            $customers = Mage::getModel('customer/customer')->getCollection()
+                ->addAttributeToFilter('email',array('eq'=>$email))
+                ->addAttributeToSelect('lastname');
+            foreach ($customers as $customer){
+                $name = $customer->getData('lastname');
+            }
         }
 
         return $name;
